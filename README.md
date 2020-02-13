@@ -18,7 +18,7 @@ Your form should have an unique form name attribute.
 
 ```html
 <script src="/path/to/rememberForm.min.js"></script>
-<!-- <script src="https://cdn.jsdelivr.net/gh/AlexeyVolkov/rememberForm@1.0/rememberForm.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/gh/AlexeyVolkov/rememberForm@1.1/rememberForm.min.js"></script> -->
 <script>
   rememberForm("#form");
   rememberForm(".needs-validation");
