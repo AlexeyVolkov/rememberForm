@@ -2,11 +2,11 @@
 
 ##### rememberForm is a JavaScript file that remembers user`s form input.
 
-- [Download](https://.com)
+- [Download](https://raw.githubusercontent.com/AlexeyVolkov/rememberForm/master/rememberForm.min.js)
 
 Saves the form's input data and fill in the form.
 
-## Sctipr Requires
+## Requirements
 
 ```html
 <form name="uniqueFormName"></form>
@@ -18,9 +18,10 @@ Your form should have an unique form name attribute.
 
 ```html
 <script src="/path/to/rememberForm.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/gh/AlexeyVolkov/rememberForm@1.0/rememberForm.min.js"></script> -->
 <script>
   rememberForm("#form");
-  rememberForm("#form2");
   rememberForm(".needs-validation");
+  rememberForm(".page section .forms-group .form32");
 </script>
 ```
