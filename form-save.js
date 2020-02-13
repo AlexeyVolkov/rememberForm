@@ -79,8 +79,8 @@ function rememberForm(formQuery, tracking = false, expireDaysInput = 30) {
                 pair[1] !== undefined &&
                 pair[1] !== '') {
                 setCookie(cookiePrefix + pair[0], pair[1], 30);
+                listCookies.push(pair[0]);
             }
-            listCookies.push(pair[0]);
         }
         // rememberFormSpecial Cookie saves all the Cookies in Array
         setCookie(listName, JSON.stringify(listCookies), expireDays);
